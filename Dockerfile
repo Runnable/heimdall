@@ -1,8 +1,6 @@
-FROM mhart/alpine-node
+FROM node:4
 
 ADD . .
-
-RUN apk add --no-cache make gcc g++ python
 
 RUN npm install
 
