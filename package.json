@@ -1,0 +1,27 @@
+{
+  "name": "heimdall",
+  "version": "0.0.1",
+  "description": "Heimdall is the brother of the warrior weave. He is the all-seeing and all-hearing guardian sentry of the Runnable network who stands on the weave container network bridge to watch for any network outages to Runnable. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Runnable/heimdall.git"
+  },
+  "keywords": [
+    "runnable",
+    "network",
+    "weave"
+  ],
+  "author": "Anandkumarpatel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Runnable/heimdall/issues"
+  },
+  "homepage": "https://github.com/Runnable/heimdall#readme",
+  "dependencies": {
+    "net-ping": "^1.2.0"
+  }
+}
